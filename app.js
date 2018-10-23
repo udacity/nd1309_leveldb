@@ -21,7 +21,7 @@ const db = new LevelSandboxClass.LevelSandbox();
           theLoop(i) 
         } else {
         	db.getBlocksCount().then((count) => {
-	           console.log(`The id for your next object is: ${count + 1}`);
+	           console.log(`The id for your next object is: ${count}`);
             }).catch((err) => { console.log(err); });
         }
 	}, 5600);

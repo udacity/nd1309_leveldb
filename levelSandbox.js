@@ -51,7 +51,7 @@ class LevelSandbox {
     getBlocksCount() {
         let self = this;
         // Add your code here
-      	
+        
       }
 }
 
